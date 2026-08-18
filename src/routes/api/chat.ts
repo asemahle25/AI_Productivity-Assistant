@@ -17,7 +17,7 @@ export const Route = createFileRoute("/api/chat")({
               "emails, summarise meetings, plan work, and think through workplace problems. " +
               "Answer in clear markdown, be concise, and never invent facts, figures, or " +
               "citations — flag anything that needs human verification.",
-            messages: convertToModelMessages(body.messages),
+            messages: await convertToModelMessages(body.messages),
           });
           return result.toUIMessageStreamResponse();
         } catch (error) {
