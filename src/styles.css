@@ -165,3 +165,45 @@
     letter-spacing: -0.02em;
   }
 }
+
+@utility prose-output {
+  & h1, & h2, & h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    margin-block: 1em 0.5em;
+  }
+  & h2 { font-size: 1.05rem; }
+  & h3 { font-size: 0.95rem; }
+  & p { margin-block: 0.6em; }
+  & ul, & ol { margin-block: 0.6em; padding-inline-start: 1.25rem; }
+  & ul { list-style: disc; }
+  & ol { list-style: decimal; }
+  & li { margin-block: 0.2em; }
+  & strong { font-weight: 600; }
+  & a { color: var(--brand); text-decoration: underline; }
+  & code {
+    background: var(--muted);
+    padding: 0.1em 0.3em;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  & table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block: 0.8em;
+    display: block;
+    overflow-x: auto;
+  }
+  & th, & td {
+    border: 1px solid var(--border);
+    padding: 0.45rem 0.6rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  & th { background: var(--muted); font-weight: 600; }
+  & blockquote {
+    border-left: 3px solid var(--border);
+    padding-inline-start: 0.75rem;
+    color: var(--muted-foreground);
+  }
+}
