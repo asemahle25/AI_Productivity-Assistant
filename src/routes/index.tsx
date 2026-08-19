@@ -7,13 +7,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "AI Workplace Productivity Assistant" },
+      { title: "More Productive Workday" },
       {
         name: "description",
         content:
           "Automate everyday work: draft emails, summarise meetings, plan tasks, run research and chat with an AI assistant built for professionals.",
       },
-      { property: "og:title", content: "AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "More Productive Workday" },
       {
         property: "og:description",
         content:
@@ -71,7 +71,7 @@ function Dashboard() {
     >
       <section className="mb-8 overflow-hidden rounded-2xl border border-border bg-background p-6 shadow-[var(--shadow-panel)] md:p-10">
         <p className="text-xs font-medium uppercase tracking-widest text-brand">
-          Workplace automation
+          More Productive Workday
         </p>
         <h2 className="mt-3 max-w-2xl text-2xl font-semibold md:text-4xl">
           Spend less time writing, summarising and planning.

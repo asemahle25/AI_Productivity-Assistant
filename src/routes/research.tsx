@@ -5,13 +5,13 @@ import { ToolWorkspace } from "@/components/tool-workspace";
 export const Route = createFileRoute("/research")({
   head: () => ({
     meta: [
-      { title: "AI Research Assistant — Workplace AI" },
+      { title: "AI Research Assistant — More Productive Workday" },
       {
         name: "description",
         content:
           "Generate structured research briefs with key findings, trade-offs, next steps and claims to verify.",
       },
-      { property: "og:title", content: "AI Research Assistant — Workplace AI" },
+      { property: "og:title", content: "AI Research Assistant — More Productive Workday" },
       {
         property: "og:description",
         content: "Structured research briefs with findings, trade-offs and next steps.",
