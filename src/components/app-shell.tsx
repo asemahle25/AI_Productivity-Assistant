@@ -55,9 +55,9 @@ function SidebarInner({ onNavigate }: { onNavigate?: (() => void) | undefined })
           <Sparkles className="size-4" />
         </span>
         <span className="font-display text-sm font-semibold leading-tight text-sidebar-foreground">
-          Workplace AI
+          More Productive
           <span className="block text-xs font-normal text-sidebar-foreground/60">
-            Productivity Assistant
+            Workday
           </span>
         </span>
       </Link>
