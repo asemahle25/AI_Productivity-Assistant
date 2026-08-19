@@ -13,13 +13,13 @@ import { Card } from "@/components/ui/card";
 export const Route = createFileRoute("/chat")({
   head: () => ({
     meta: [
-      { title: "AI Chatbot Assistant — Workplace AI" },
+      { title: "AI Chatbot Assistant — More Productive Workday" },
       {
         name: "description",
         content:
           "Chat with an AI workplace assistant to draft, plan, summarise and think through work problems.",
       },
-      { property: "og:title", content: "AI Chatbot Assistant — Workplace AI" },
+      { property: "og:title", content: "AI Chatbot Assistant — More Productive Workday" },
       {
         property: "og:description",
         content: "Chat with an AI assistant built for everyday workplace tasks.",

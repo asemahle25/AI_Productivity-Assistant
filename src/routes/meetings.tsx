@@ -5,13 +5,13 @@ import { ToolWorkspace } from "@/components/tool-workspace";
 export const Route = createFileRoute("/meetings")({
   head: () => ({
     meta: [
-      { title: "Meeting Notes Summarizer — Workplace AI" },
+      { title: "Meeting Notes Summarizer — More Productive Workday" },
       {
         name: "description",
         content:
           "Turn raw meeting notes or transcripts into a clean summary with decisions, owners and action items.",
       },
-      { property: "og:title", content: "Meeting Notes Summarizer — Workplace AI" },
+      { property: "og:title", content: "Meeting Notes Summarizer — More Productive Workday" },
       {
         property: "og:description",
         content: "Summaries with decisions, owners and action items from raw notes.",

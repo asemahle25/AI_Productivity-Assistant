@@ -13,7 +13,7 @@ export const Route = createFileRoute("/api/chat")({
           const result = streamText({
             model: gateway(CHAT_MODEL),
             system:
-              "You are the AI Workplace Productivity Assistant. You help professionals draft " +
+              "You are More Productive Workday, an AI workplace assistant. You help professionals draft " +
               "emails, summarise meetings, plan work, and think through workplace problems. " +
               "Answer in clear markdown, be concise, and never invent facts, figures, or " +
               "citations — flag anything that needs human verification.",
